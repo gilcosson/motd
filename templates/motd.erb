@@ -1,0 +1,10 @@
+This file is managed by puppet. Your changes will be overwritten. 
+
+<%= message %>
+
+<% if has_variable?("ipaddress_eth1") then %>ip: <%= ipaddress_eth1 %><% end %>
+<% if has_variable?("puppetversion") then %>puppet: <%= puppetversion %><% end %>
+<% if has_variable?("rubyversion") then %>ruby: <%= rubyversion %><% end %>
+<% if has_variable?("lsbdistdescription") then %>distribution: <%= lsbdistdescription %><% end %>
+
+
